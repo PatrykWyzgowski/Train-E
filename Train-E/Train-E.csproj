@@ -186,8 +186,10 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DAL\Classes\GenericRepository.cs" />
+    <Compile Include="DAL\Classes\UnitOfWork.cs" />
     <Compile Include="DAL\Interfaces\IGenericRepository.cs" />
     <Compile Include="DAL\Classes\TrainEContext.cs" />
+    <Compile Include="DAL\Interfaces\IUnitOfWork.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
